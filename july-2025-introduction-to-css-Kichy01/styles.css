@@ -1,0 +1,67 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styling */
+.site-header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #2e7d32; /* Box Model: Border */
+}
+
+/* Navigation styling */
+.main-nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content and card styling */
+.content {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid #ccc; /* Box Model: Border */
+    padding: 15px;          /* Box Model: Padding */
+    margin: 10px;           /* Box Model: Margin */
+    flex: 1;
+    border-radius: 5px;
+}
+
+/* Footer styling */
+.site-footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-top: 2px solid #555;
+}
